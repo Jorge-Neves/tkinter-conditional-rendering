@@ -26,6 +26,7 @@ button_show = Button(Root, text="Show", command=lambda: show_widget(second_frame
 button_show.pack(pady=20)
 
 second_frame = Frame(Root)
+second_frame.pack()
 
 # Create a Label Widget
 label = Label(second_frame, text="Showing the Message", font=('Helvetica bold', 14))
